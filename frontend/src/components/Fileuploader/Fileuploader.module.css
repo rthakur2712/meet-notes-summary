@@ -1,0 +1,20 @@
+.dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

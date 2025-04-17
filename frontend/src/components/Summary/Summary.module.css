@@ -1,0 +1,19 @@
+.wrapper {
+    margin-top: 2rem;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 80%;
+    background-color: #fff;
+    overflow: visible;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

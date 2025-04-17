@@ -1,0 +1,20 @@
+.wrapper {
+    margin-top: 2rem;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 1rem;
+  }
+  
+  .time {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.25rem;
+  }
+  
