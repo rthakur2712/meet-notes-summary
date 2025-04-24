@@ -1,4 +1,6 @@
 ![image](https://github.com/user-attachments/assets/cdf5297b-b5b5-44b5-87ed-a7504dbad116)
+Here’s a cleaned-up, ready-to-use `README.md`. I’ve fixed code-block delimiters, ensured consistent formatting, and polished a few minor typos:
+
 ```markdown
 # Audio Transcription & Summarization App
 
@@ -9,10 +11,10 @@ A full-stack application that lets you record or upload audio, transcribe it via
 ## 🚀 Features
 
 - **Record Audio**  
-  Capture system audio via a loopback device (e.g. “Stereo Mix” on Windows).
+  Capture system audio via a loopback device (e.g., “Stereo Mix” on Windows).
 
 - **Upload Audio**  
-  Upload local audio files (e.g. `.wav`, `.mp3`) for transcription.
+  Upload local audio files (`.wav`, `.mp3`, etc.) for transcription.
 
 - **Automatic Transcription**  
   Speech-to-text powered by OpenAI Whisper.
@@ -43,10 +45,10 @@ A full-stack application that lets you record or upload audio, transcribe it via
 ## 📦 Tech Stack
 
 - **Backend:** FastAPI, SQLite, Uvicorn  
-- **Frontend:** React, Create React App  
+- **Frontend:** React (Create React App)  
 - **Transcription:** OpenAI Whisper  
 - **Summarization:** Google Gemini API  
-- **Language:** Python 3.8+, Node.js 16+
+- **Languages:** Python 3.8+, Node.js 16+
 
 ---
 
@@ -86,43 +88,40 @@ uvicorn main:app --reload
 ```
 
 The backend will be available at:  
-```
-http://127.0.0.1:8000
-```
+`http://127.0.0.1:8000`
 
 ### 3. Frontend Setup
 
 Open a new terminal and run:
 
 ```bash
-cd ../frontend
+cd frontend
 npm install
 npm start
 ```
 
 The frontend will be available at:  
-```
-http://localhost:3000
-```
+`http://localhost:3000`
 
 ---
 
 ## ⚙️ Usage
 
 1. **Start the Backend:**  
-   `uvicorn main:app --reload` in the `backend/` directory.
-
+   ```bash
+   uvicorn main:app --reload
+   ```
 2. **Start the Frontend:**  
-   `npm start` in the `frontend/` directory.
-
+   ```bash
+   npm start
+   ```
 3. **Open the App:**  
    Navigate to `http://localhost:3000` in your browser.
-
 4. **Interact:**  
    - Click **Record** to capture system audio.  
    - Or **Upload** any audio file.  
-   - View live transcription, translate if needed, then generate a summary.  
-   - Download the summary PDF or search within your session transcripts.
+   - View live transcription (auto-translated if non-English), then generate a summary.  
+   - Download the summary PDF or search within your session’s transcripts.
 
 ---
 
@@ -138,8 +137,8 @@ http://localhost:3000
 
 ## 📝 Notes
 
-- **Session-only Data:** Only transcriptions made during the current server run are shown. Restarting or deleting the SQLite file clears history.
-- **Persistence:** The SQLite database file (`db.sqlite3` or similar) lives in `backend/` and persists between runs unless manually deleted.
+- **Session-only Data:** Only transcriptions made during the current server run are shown. Restarting or deleting the SQLite file clears history.  
+- **Persistence:** The SQLite database file (e.g., `db.sqlite3`) lives in `backend/` and persists between runs unless manually deleted.  
 - **Loopback Audio:** Ensure your OS has a loopback/mix device enabled if you want to record system audio.
 
 ---
@@ -156,5 +155,4 @@ http://localhost:3000
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute!
-
 ```
