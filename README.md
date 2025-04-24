@@ -1,7 +1,5 @@
 ![image](https://github.com/user-attachments/assets/cdf5297b-b5b5-44b5-87ed-a7504dbad116)
-Here’s a cleaned-up, ready-to-use `README.md`. I’ve fixed code-block delimiters, ensured consistent formatting, and polished a few minor typos:
 
-```markdown
 # Audio Transcription & Summarization App
 
 A full-stack application that lets you record or upload audio, transcribe it via OpenAI’s Whisper model, and generate structured summaries using Google’s Gemini API. Transcriptions and summaries are managed by a FastAPI backend and presented through a modern React frontend.
@@ -55,7 +53,6 @@ A full-stack application that lets you record or upload audio, transcribe it via
 ## 🔧 Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/yourusername/soundcard_testing.git
 cd soundcard_testing
